@@ -1,0 +1,10 @@
+name: "test"
+description: "test"
+author: "jsoref"
+inputs:
+  first-word:
+    description: test
+    required: false
+runs:
+  using: node20
+  main: "test.js"
